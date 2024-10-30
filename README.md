@@ -139,7 +139,7 @@ pip install -r requirements.txt
 ## 📁 Project Structure
 
 ```
-AR_mapping_system/
+3D_depth/
 ├── densedepth.py      # Custom implementation with training
 ├── midas_depth.py     # Single image MiDaS implementation
 ├── midas_live.py      # Real-time MiDaS implementation
