@@ -1,0 +1,28 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.21.0
+opencv-python>=4.7.0
+opencv-contrib-python>=4.7.0
+matplotlib>=3.5.0
+Pillow>=9.0.0
+
+# Deep learning and computer vision
+timm>=0.6.12
+scipy>=1.7.0
+
+# Utilities
+tqdm>=4.65.0
+h5py>=3.8.0  # For handling NYU dataset
+tensorboard>=2.12.0  # For training visualization
+PyYAML>=6.0  # For config files
+
+# Optional - for development
+pytest>=7.3.1
+black>=22.3.0
+flake8>=6.0.0
+isort>=5.12.0
+
+# Optional - for CUDA support
+# Install the appropriate version based on your CUDA version
+# torch-cuda>=2.0.0  # Uncomment and modify based on your CUDA version
