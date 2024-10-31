@@ -5,15 +5,14 @@ This repository contains implementations of monocular depth estimation using var
 ## 📚 Table of Contents
 1. [Installation](#installation)
 2. [Features](#features)
-3. [Demo Videos](#demo-videos)
-4. [Algorithms Used](#algorithms-used)
-5. [Project Structure](#project-structure)
-6. [Usage](#usage)
-7. [Training](#training)
-8. [Customization](#customization)
-9. [Troubleshooting](#troubleshooting)
-10. [Contributing](#contributing)
-11. [License](#license)
+3. [Algorithms Used](#algorithms-used)
+4. [Project Structure](#project-structure)
+5. [Usage](#usage)
+6. [Training](#training)
+7. [Customization](#customization)
+8. [Troubleshooting](#troubleshooting)
+9. [Contributing](#contributing)
+10. [License](#license)
 
 ## Installation
 
@@ -93,18 +92,6 @@ source env/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-
-## Demo Videos
-
-### MiDaS Live Demo
-Watch our real-time depth estimation in action using the MiDaS model:
-
-https://github.com/NiharP31/3D_depth/assets/videos/midas_live.mp4
-
-### DenseDepth Demo
-See our custom implementation with the DenseDepth model:
-
-https://github.com/NiharP31/3D_depth/assets/videos/dense_depth.mp4
 
 ## Features
 
