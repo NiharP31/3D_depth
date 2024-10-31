@@ -270,7 +270,7 @@ cv2.applyColorMap(depth, cv2.COLORMAP_MAGMA)
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/NiharP31/3D_depth/blob/main/LICENSE) file for details.
 
 ## Acknowledgments
 
