@@ -3,20 +3,19 @@
 This repository contains implementations of monocular depth estimation using various deep learning approaches. The project supports both single-image depth estimation and real-time depth estimation from video/webcam feeds.
 
 ## 📚 Table of Contents
-- [Installation](#installation)
-  - [Conda Environment Setup](#conda-environment-setup)
-  - [Manual Installation](#manual-installation)
-- [Features](#features)
-- [Algorithms Used](#algorithms-used)
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Training](#training)
-- [Customization](#customization)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
+1. [Installation](#installation)
+2. [Features](#features)
+3. [Demo Videos](#demo-videos)
+4. [Algorithms Used](#algorithms-used)
+5. [Project Structure](#project-structure)
+6. [Usage](#usage)
+7. [Training](#training)
+8. [Customization](#customization)
+9. [Troubleshooting](#troubleshooting)
+10. [Contributing](#contributing)
+11. [License](#license)
 
-## 🛠️ Installation
+## Installation
 
 ### Conda Environment Setup (Recommended)
 
@@ -95,7 +94,19 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-## 🎯 Features
+## Demo Videos
+
+### MiDaS Live Demo
+Watch our real-time depth estimation in action using the MiDaS model:
+
+https://github.com/NiharP31/3D_depth/assets/videos/midas_live.mp4
+
+### DenseDepth Demo
+See our custom implementation with the DenseDepth model:
+
+https://github.com/NiharP31/3D_depth/assets/videos/dense_depth.mp4
+
+## Features
 
 - Single image depth estimation
 - Real-time depth estimation from webcam
@@ -108,7 +119,7 @@ pip install -r requirements.txt
 - Real-time visualization
 - Frame and depth map saving capabilities
 
-## 🧠 Algorithms Used
+## Algorithms Used
 
 ### 1. MiDaS (Mixed Dense Architecture Search)
 - **Description**: State-of-the-art model for monocular depth estimation
@@ -136,7 +147,7 @@ pip install -r requirements.txt
   - Optimizer: Adam
   - Learning rate: 0.001
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 3D_depth/
@@ -148,7 +159,7 @@ pip install -r requirements.txt
 └── README.md         # Project documentation
 ```
 
-## 🚀 Usage
+## Usage
 
 Make sure your Conda environment is activated:
 ```bash
@@ -174,12 +185,12 @@ python midas_depth.py --image path/to/your/image.jpg
 python midas_live.py
 ```
 
-## 🎮 Controls
+### Controls
 - `q`: Quit application
 - `s`: Save current frame and depth map
 - ESC: Exit
 
-## 🏋️‍♀️ Training
+## Training
 
 ### Dataset Preparation
 1. Download NYU Depth V2 dataset:
@@ -205,7 +216,7 @@ batch_size = 4
 python densedepth.py --mode train
 ```
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### Common Conda Issues
 
@@ -244,7 +255,7 @@ batch_size = 2  # Default: 4
 self.target_size = (240, 320)  # Default: (480, 640)
 ```
 
-## ⚙️ Customization
+## Customization
 
 ### Resolution
 ```python
@@ -262,7 +273,7 @@ Available options:
 cv2.applyColorMap(depth, cv2.COLORMAP_MAGMA)
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch: `git checkout -b feature/NewFeature`
@@ -270,14 +281,13 @@ cv2.applyColorMap(depth, cv2.COLORMAP_MAGMA)
 4. Push to branch: `git push origin feature/NewFeature`
 5. Submit a pull request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [MiDaS](https://github.com/intel-isl/MiDaS) for the pre-trained models
 - [NYU Depth V2 Dataset](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)
 - [PyTorch](https://pytorch.org/) team
 - [OpenCV](https://opencv.org/) community
-
